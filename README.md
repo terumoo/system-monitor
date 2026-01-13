@@ -28,3 +28,35 @@ Compile the program:
 
 ```bash
 g++ main.cpp -o system_monitor
+
+```
+Run the program:
+```bash
+./system_monitor
+
+```
+---
+### 2 Run with Docker
+Build the Docker image:`
+
+```bash
+docker build -t system-monitor .
+
+```
+Run the container:
+```bash
+docker run system_monitor
+
+```
+---
+## Project Structure
+
+```bash
+system-monitor-cli/
+├── main.cpp        # Main C++ source file
+├── Dockerfile      # Docker container setup
+├── README.md       # Project documentation
+
+
+
+
