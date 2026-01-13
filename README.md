@@ -37,7 +37,7 @@ Run the program:
 ```
 ---
 ### 2 Run with Docker
-Build the Docker image:`
+Build the Docker image:
 
 ```bash
 docker build -t system-monitor .
@@ -51,7 +51,7 @@ docker run system_monitor
 ---
 ## Project Structure
 
-```bash
+```console
 system-monitor-cli/
 ├── main.cpp        # Main C++ source file
 ├── Dockerfile      # Docker container setup
